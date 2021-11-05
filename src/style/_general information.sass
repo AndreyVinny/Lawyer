@@ -1,0 +1,30 @@
+$color-main: #000
+$color_bg_header: #650e10
+$color_text: #e2c694
+
+$color_text_main: #fff
+$color_text_second:#d8d8d8
+$color_text_up: #bfb1b1
+$color_special: #ff6b53
+$color_special2: #06215c
+$bg_fon_nav: #222
+$bg_fon_about: #7e7e7e
+
+$pc: 1200px
+$notebook: 900px
+$tablet: 720px
+$mobile: 420px
+$mobile-mini: 320px
+
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+    font-family: 'Open Sans Condensed', sans-serif
+
+@mixin flex ($fd, $jc, $ai, $fw)
+    display: flex
+    flex-direction: $fd
+    justify-content: $jc
+    align-items: $ai
+    flex-wrap: $fw
